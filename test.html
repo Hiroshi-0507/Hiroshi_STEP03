@@ -8,6 +8,56 @@
     </head>
 
     <body>
-        
+        <h2>世界一甘いお店</h2>
+        <nav>
+            <ul>
+                <li><a href="top.html">トップ</a></li>
+                <li><a href="new.html">新着情報</a></li>
+                <li><a href="sweet.html">おすすめのスイーツ</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <form>
+            <table border="4">
+                <tr>
+                    <th colspan="1">お名前</th>
+                    <td><textarea name="description" cols="40" rows="1"></textarea></td>
+                </tr>
+                <tr>
+                    <th colspan="1">お近くのお店</th>
+                    <td><select name="全国">
+                        <option value="北海道・東北">北海道・東北</option>
+                        <option value="関東">関東</option>
+                        <option value="中部">中部</option>
+                        <option value="関西">関西</option>
+                        <option value="中国・四国">中国・四国</option>
+                        <option value="九州・沖縄">九州・沖縄</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <th colspan="1">電話</th>
+                    <td><textarea name="description" cols="40" rows="1"></textarea></td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td><textarea name="description" cols="40" rows="1"></textarea></td>
+                </tr>
+                <tr>
+                    <th colspan="1">メールアドレス</th>
+                    <td><textarea name="description" cols="40" rows="1"></textarea></td>
+                </tr>
+                <tr>
+                    <th colspan="1">お問い合わせ種別</th>
+                    <td><input type="radio" name="example" value="商品について">商品について
+                        <input type="radio" name="example" value="従業員について">従業員について</td>
+                </tr>
+                <tr>
+                    <th colspan="1">お問い合わせ内容</th>
+                    <td><textarea placeholder="詳細を入力してください" cols="30" rows="5"></textarea></td>
+                </tr>
+            </table>
+            <input class="send" type="submit" value="送信">
+        </form>
+        <footer></footer>
     </body>
 </html>
